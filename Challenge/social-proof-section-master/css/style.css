@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+:root {
+  --Dark-Magenta: hsl(300, 43%, 22%);
+  --Pink: hsl(333, 80%, 67%);
+  --Grayish-Magenta: hsl(303, 10%, 53%);
+  --Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    
+    .card-container{
+        h2{
+        }
+        p{
+
+        }
+    }
+        .box{
+            .small-box{
+            img{
+            }
+            p{
+
+            }
+        }
+        }
+        .item{
+            .card{
+                .card-img{
+
+                }
+                h3{
+
+                }
+                h4{
+
+                }
+                p{
+
+                }
+            }
+        }   
+    
+}
