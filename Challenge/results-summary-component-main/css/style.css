@@ -37,19 +37,19 @@ p {
   height: 100vh;
   background-color: var(--Pale-blue);
   display: grid;
-  
+
   @media (min-width: 768px) {
-      place-items: center;
-    }
+    place-items: center;
+  }
   .container {
-    max-width: 500px;
-   /* height: 100%; */
+    max-width: 700px;
+    /* height: 100%; */
     background-color: var(--White);
     display: grid;
     border-radius: 20px;
     overflow: hidden;
     @media (min-width: 768px) {
-      width: 500px;
+      width: 600px;
       grid-template-columns: repeat(2, 1fr);
     }
     .card {
@@ -131,33 +131,34 @@ p {
           background-color: var(--Light-red-tran);
           &:nth-child(2) {
             background-color: var(--Orangey-yellow-tran);
-            
+            p{
+              color: var(--Orangey-yellow)
+            }
           }
           &:nth-child(3) {
             background-color: var(--Green-teal-tran);
-         
           }
           &:nth-child(4) {
             background-color: var(--Cobalt-blue-tran);
           }
-          
+
           .content1 {
             display: flex;
-            img{
-                margin-right: 0.5rem;
+            img {
+              margin-right: 0.5rem;
             }
-            p{
-                color: var(--Light-red);
-                &:nth-child(2){
-                    color: var(--Orangey-yellow);
-                }
-                &:nth-child(3){
-                   color: var(--Green-teal); 
-                }
-                &:nth-child(4){
-                   color: var(--Cobalt-blue); 
-                }
-            }
+            /* p {
+              color: var(--Light-red);
+              &:nth-child(2) {
+                color: var(--Orangey-yellow);
+              }
+              &:nth-child(3) {
+                color: var(--Green-teal);
+              }
+              &:nth-child(4) {
+                color: var(--Cobalt-blue);
+              }
+            } */
           }
           .content2 {
             color: var(--Dark-gray-blue);
@@ -172,7 +173,7 @@ p {
         border-radius: 2rem;
         background-color: var(--Dark-gray-blue);
         color: var(--White);
-        &:hover{
+        &:hover {
           background-color: var(--Cobalt-blue);
         }
       }

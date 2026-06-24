@@ -13,71 +13,73 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-p{
-    font-size: 16px;
+p {
+  font-size: 16px;
 }
-.container{
-    width: 100%;
-    min-height: 100vh;
-    background-color: var(--Yellow);
-    display: grid;
-    place-items: center;
-    .card{
-        max-width: 400px;
-        margin: 7rem 1.5rem;
-        background-color: var(--White);
-        padding: 1.5rem;
-        border-radius: 20px;
-        border: 2px solid var(--Gray-F950);
-        box-shadow: 10px 10px var(--Gray-F950);
-        @media (min-width: 768px) {
-            width: 400px;
-        }
-        img{
-            width: 100%;
-            border-radius: 15px;
-        }
-        .box{
-            background-color: var(--Yellow);
-            display: inline-block;
-            padding: 0.5rem;
-            margin-top: 1rem;
-            border-radius: 8px;
-            p{
-                font-weight: 800;
-                color: var(--Gray-F950);
-            }
-        }
-        .mini-box{
-        h4{
-            margin-top: 1rem;
-            font-weight: 500;
-        }
-        h2{
-            margin-top: 1rem;
-            font-weight: 800;
-            &:hover{
-                color: var(--Yellow);
-            }
-        }
-        p{
-            font-weight: 500;
-            color: var(--Gray-F500);
-            margin-top: 1rem;
-            line-height: 1.3;
-        }
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--Yellow);
+  display: grid;
+  place-items: center;
+  .card {
+    max-width: 400px;
+    margin: 7rem 1.5rem;
+    background-color: var(--White);
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 2px solid var(--Gray-F950);
+    box-shadow: 10px 10px var(--Gray-F950);
+    @media (min-width: 768px) {
+      width: 400px;
     }
-        .profile{
-            margin-top: 1.5rem;
-            display: flex;
-            img{
-                width: 40px;
-                aspect-ratio: 1/1;
-            }
-            p{
-                font-weight: 800;
-                margin: 1rem;
-            }
-        }
+    img {
+      width: 100%;
+      border-radius: 15px;
     }
+    .box {
+      background-color: var(--Yellow);
+      display: inline-block;
+      padding: 0.5rem;
+      margin-top: 1rem;
+      border-radius: 8px;
+      p {
+        font-weight: 800;
+        color: var(--Gray-F950);
+      }
+    }
+    .mini-box {
+      h4 {
+        margin-top: 1rem;
+        font-weight: 500;
+      }
+      h2 {
+        margin-top: 1rem;
+        font-weight: 800;
+        &:hover {
+          color: var(--Yellow);
+        }
+      }
+      p {
+        font-weight: 500;
+        color: var(--Gray-F500);
+        margin-top: 1rem;
+        line-height: 1.3;
+      }
+    }
+    .profile {
+      margin-top: 1.5rem;
+      display: flex;
+      align-items: center;
+      img {
+        width: 40px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+      }
+      p {
+        font-weight: 800;
+        margin: 1rem;
+      }
+    }
+  }
 }
