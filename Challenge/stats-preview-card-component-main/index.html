@@ -38,43 +38,58 @@
         font-optical-sizing: auto;
         font-style: normal;
       }
-      h2,h3 {
+      h2,
+      h3 {
         font-family: "Inter", sans-serif;
       }
     </style>
   </head>
   <body>
     <div class="bg-Navy-950 w-screen min-h-screen grid place-items-center">
-      <div class="bg-Blue-950 max-w-5xl grid grid-cols-2 rounded-xl overflow-hidden">
-        <div class="p-15">
+      <div
+        class="bg-Blue-950 max-w-5xl grid lg:grid-cols-2 rounded-xl overflow-hidden my-20 mx-8"
+      >
+        <div class="py-8 px-4 lg:px-10 order-2 lg:order-1 lg:p-13">
           <div class="">
-            <h2 class="text-main-heading text-4xl font-bold">
+            <h2 class="text-main-heading text-3xl text-center lg:text-4xl lg:font-bold lg:text-left">
               Get <span class="text-Purple-500">insights</span> that help your
               business grow.
             </h2>
-            <p class="text-main-paragraph  leading-6 mt-8">
+            <p class="text-main-paragraph leading-6 mt-8 text-center lg:text-left">
               Discover the benefits of data analytics and make better decisions
               regarding revenue, customer experience, and overall efficiency.
             </p>
           </div>
-          <div class=" grid grid-cols-3  mt-16">
+          <div class="grid gap-5 justify-center lg:grid-cols-3 mt-16">
             <div>
-              <h3 class="text-main-heading text-2xl font-bold">10k+</h3>
-              <p class="text-stat-headings mt-2 uppercase text-xs tracking-widest">Companies</p>
+              <h3 class="lg:text-left text-center text-main-heading text-2xl font-bold">10k+</h3>
+              <p
+                class="text-stat-headings mt-2 uppercase text-xs tracking-widest"
+              >
+                Companies
+              </p>
             </div>
             <div>
-              <h3 class="text-main-heading text-2xl font-bold">314</h3>
-              <p class="text-stat-headings mt-2 uppercase text-xs tracking-widest">Templates</p>
+              <h3 class="lg:text-left text-center text-main-heading text-2xl font-bold">314</h3>
+              <p
+                class="text-stat-headings mt-2 uppercase text-xs tracking-widest"
+              >
+                Templates
+              </p>
             </div>
             <div>
-              <h3 class="text-main-heading text-2xl font-bold">12M+</h3>
-              <p class="text-stat-headings mt-2 uppercase text-xs tracking-widest">Queries</p>
+              <h3 class="lg:text-left text-main-heading text-2xl font-bold">12M+</h3>
+              <p
+                class="text-stat-headings mt-2 uppercase text-xs tracking-widest"
+              >
+                Queries
+              </p>
             </div>
           </div>
         </div>
-        <div class="bg-Purple-500 bg-[url(/images/image-header-desktop.jpg)] bg-cover bg-blend-multiply">
-          
-        </div>
+        <div
+          class=" order-1 lg:order-2 lg:aspect-auto bg-Purple-500 bg-[url(/images/image-header-desktop.jpg)] aspect-video bg-cover bg-blend-multiply"
+        ></div>
       </div>
     </div>
   </body>
